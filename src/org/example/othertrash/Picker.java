@@ -1,4 +1,4 @@
-package org.example;
+package org.example.othertrash;
 
 public class Picker implements Runnable {
     private final AppleBasket basket;

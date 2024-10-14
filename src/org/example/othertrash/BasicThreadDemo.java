@@ -1,6 +1,4 @@
-package org.example;
-
-import java.util.concurrent.atomic.AtomicInteger;
+package org.example.othertrash;
 
 public class BasicThreadDemo {
 //    public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.othertrash;
 
 class Racer implements Runnable {
     private String name;

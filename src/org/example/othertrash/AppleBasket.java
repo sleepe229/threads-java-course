@@ -1,6 +1,5 @@
-package org.example;
+package org.example.othertrash;
 
-import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class AppleBasket {

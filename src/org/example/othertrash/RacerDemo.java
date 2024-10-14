@@ -1,4 +1,4 @@
-package org.example;
+package org.example.othertrash;
 //
 //public class RacerDemo {
 ////    public static void main(String[] args) throws InterruptedException {

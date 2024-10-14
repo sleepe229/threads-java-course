@@ -1,6 +1,4 @@
-package org.example;
-
-import java.util.concurrent.CountDownLatch;
+package org.example.othertrash;
 
 public class AppleRaceDemo {
     public static void main(String[] args) {

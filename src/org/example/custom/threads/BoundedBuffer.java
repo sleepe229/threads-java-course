@@ -1,7 +1,5 @@
 package org.example.custom.threads;
 
-import java.util.Random;
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class BoundedBuffer<T> {

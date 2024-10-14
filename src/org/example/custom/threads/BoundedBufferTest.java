@@ -1,7 +1,6 @@
 package org.example.custom.threads;
 
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class BoundedBufferTest {
     public static void main(String[] args) throws InterruptedException {
