@@ -21,6 +21,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleModuleStateConfig" initialized="true" />
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -55,6 +59,26 @@
       <recent name="C:\Users\tpyng\IdeaProjects\demo (2)\untitled\src\org\example\othertrash" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="BoundedBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.custom.threads.BoundedBufferTest" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.custom.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BoundedBufferTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728304124380</updated>
       <workItem from="1728304125416" duration="4470000" />
-      <workItem from="1728909059044" duration="15057000" />
+      <workItem from="1728909059044" duration="17878000" />
     </task>
     <servers />
   </component>
@@ -94,7 +118,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/org/example/custom/threads/BoundedBufferTest.java</url>
-          <line>7</line>
+          <line>9</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>

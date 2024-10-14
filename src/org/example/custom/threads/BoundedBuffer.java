@@ -8,8 +8,6 @@ public class BoundedBuffer<T> {
     private final AtomicInteger in = new AtomicInteger(0);
     private final AtomicInteger out = new AtomicInteger(0);
 
-
-
     @SuppressWarnings("unchecked")
     public BoundedBuffer(int size) {
         buffer = (T[]) new Object[size];
@@ -19,17 +17,20 @@ public class BoundedBuffer<T> {
         if (count.get() == buffer.length) {
             wait();
         }
+
         buffer[in.get()] = element;
         count.getAndIncrement();
         in.set((in.get() + 1) % buffer.length);
         notifyAll();
     }
+
     public synchronized T take() throws InterruptedException {
         if (count.get() == 0) {
             wait();
         }
+
         T element = buffer[out.get()];
-        buffer[out.get()] = null;
+//        buffer[out.get()] = null;
         count.getAndDecrement();
         out.set((out.get() + 1) % buffer.length);
         notifyAll();
