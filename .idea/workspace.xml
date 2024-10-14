@@ -50,6 +50,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tpyng\IdeaProjects\demo (2)\untitled\src\org\example\othertrash" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728304124380</updated>
       <workItem from="1728304125416" duration="4470000" />
-      <workItem from="1728909059044" duration="14387000" />
+      <workItem from="1728909059044" duration="15057000" />
     </task>
     <servers />
   </component>
@@ -78,7 +83,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/org/example/AppleRaceDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/org/example/othertrash/AppleRaceDemo.java</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -89,7 +94,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/org/example/custom/threads/BoundedBufferTest.java</url>
-          <line>8</line>
+          <line>7</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
