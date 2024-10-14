@@ -7,7 +7,7 @@ public class BoundedBufferTest {
     public static void main(String[] args) throws InterruptedException {
         CountDownLatch startSignal = new CountDownLatch(1);
         CountDownLatch finishSignal = new CountDownLatch(10);
-        BoundedBuffer<Integer> buffer = new BoundedBuffer<>(5, startSignal, finishSignal);
+        BoundedBuffer<Integer> buffer = new BoundedBuffer<>(5);
         for (int i = 1; i <= 5; i++) {
             int finalI = i;
             new Thread(() -> {

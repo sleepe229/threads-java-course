@@ -38,7 +38,7 @@
     "Application.CounterDemo.executor": "Run",
     "Application.SynchronizedRacerDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/tpyng/IdeaProjects/demo (2)/untitled",
@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728304124380</updated>
       <workItem from="1728304125416" duration="4470000" />
-      <workItem from="1728909059044" duration="13237000" />
+      <workItem from="1728909059044" duration="14387000" />
     </task>
     <servers />
   </component>
@@ -84,7 +84,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/org/example/custom/threads/BoundedBuffer.java</url>
-          <line>38</line>
+          <line>1</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
