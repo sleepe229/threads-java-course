@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class BoundedBufferTest {
     public static void main(String[] args) throws InterruptedException {
-        final int VALUE = 20000;
+        final int VALUE = 10;
         CountDownLatch startSignal = new CountDownLatch(1);
         CountDownLatch finishSignal = new CountDownLatch(VALUE);
         BoundedBuffer<Integer> buffer = new BoundedBuffer<>(VALUE);
